@@ -23,7 +23,7 @@ export const AppProvider = ({ children }) => {
   };
 
   return (
-    <AppContext.AppProvider
+    <AppContext.Provider
       value={{
         isSubmenuOpen,
         isSidebarOpen,
@@ -34,7 +34,7 @@ export const AppProvider = ({ children }) => {
       }}
     >
       {children}
-    </AppContext.AppProvider>
+    </AppContext.Provider>
   );
 };
 
