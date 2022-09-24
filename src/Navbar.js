@@ -14,7 +14,11 @@ const Navbar = () => {
             <FaBars />
           </button>
         </div>
-        <ul className="nav-links"></ul>
+        <ul className="nav-links">
+          <li>
+            <button classNam="link-btn"></button>
+          </li>
+        </ul>
       </div>
     </nav>
   );
