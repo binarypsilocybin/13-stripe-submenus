@@ -13,7 +13,7 @@ const Navbar = () => {
     openSubmenu(page, { center, bottom });
   };
   const handleSubmenu = (e) => {
-    if (!e.target.classList.contains('links-btn')) {
+    if (!e.target.classList.contains('link-btn')) {
       closeSubmenu();
     }
   };
